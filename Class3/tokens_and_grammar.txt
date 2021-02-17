@@ -1,0 +1,29 @@
+class Token {
+public:
+	char kind;
+	double value;
+};
+
+kind:  '+', '-', '*', '/', '8'
+value: N/A, N/A, N/A, N/A, "value stored in double".
+
+Maybe we use vectors to store all tokens and then when we see operators like '*' we mulitply previous and later one 
+But still how to implement Mathematics rules? Answer is Grammar!!!
+
+// a simple expression grammar:
+
+Expression:
+	Term
+	Expression "+" Term // addition
+	Expression "–" Term // subtraction
+Term:
+	Primary
+	Term "*" Primary // multiplication
+	Term "/" Primary // division
+Primary:
+	Number
+	"(" Expression ")" // grouping
+Number:
+	floating-point-literal
+
+This is a set of simple rules!
