@@ -1,0 +1,8 @@
+Year: 1992	Month: January    Hour: 1    Temp: 61
+Year: 1992	Month: February    Hour: 2    Temp: 64
+Year: 2000	Month: February    Hour: 0    Temp: 67.2
+Year: 2000	Month: February    Hour: 1    Temp: 68
+Year: 2000	Month: February    Hour: 3    Temp: 66.66
+Year: 2000	Month: December    Hour: 0    Temp: -2
+Year: 2000	Month: December    Hour: 14    Temp: -8
+Year: 2000	Month: December    Hour: 15    Temp: -9
